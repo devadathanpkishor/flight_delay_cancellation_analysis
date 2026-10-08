@@ -2,10 +2,6 @@
 
 An end-to-end data analytics project that analyses 100,000 US domestic flights (January 2019 to August 2023) to find out **which airlines, routes and months suffer most from delays and cancellations, and why**.
 
-![Delay Overview](images/dashboard_page1.png)
-![Cancellation Analysis](images/dashboard_page2.png)
-![Airport & Time Analysis](images/dashboard_page3.png)
-
 ## Business questions
 
 1. Which airlines and routes have the highest departure delays?
@@ -51,7 +47,6 @@ Raw CSV → PostgreSQL table → data quality checks → SQL analysis (13 querie
 | Q12 | Average delay by scheduled departure hour (5 AM onwards) | Average Departure Delay by Hour of Day (line) |
 | Q13 | Share of flights arriving within 15 minutes of schedule | On-Time % card |
 
-All SQL is in [`sql/flight_delay_analysis.sql`](sql/flight_delay_analysis.sql).
 
 ## Key findings
 
@@ -79,19 +74,6 @@ All SQL is in [`sql/flight_delay_analysis.sql`](sql/flight_delay_analysis.sql).
 - Cancellation monitoring should use rates, not counts, so that large airlines are not unfairly flagged.
 - Planning for the summer peak (June) in staffing and spare aircraft could reduce delays.
 
-## Repository structure
-
-```
-├── README.md
-├── sql/
-│   └── flight_delay_analysis.sql
-├── notebooks/
-│   └── flight_delay_analysis.ipynb
-└── images/
-    ├── dashboard_page1.png
-    ├── dashboard_page2.png
-    └── dashboard_page3.png
-```
 
 ## Author
 
