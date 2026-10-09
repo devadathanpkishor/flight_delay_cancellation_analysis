@@ -1,4 +1,4 @@
-# Airline Delay & Cancellation Analysis (SQL + Power BI)
+# Flight Delay & Cancellation Analysis (SQL + Power BI)
 
 An end-to-end data analytics project that analyses 100,000 US domestic flights (January 2019 to August 2023) to find out **which airlines, routes and months suffer most from delays and cancellations, and why**.
 
