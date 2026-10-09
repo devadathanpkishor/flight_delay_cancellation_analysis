@@ -27,7 +27,7 @@ Raw CSV → PostgreSQL table → data quality checks → SQL analysis (13 querie
 - File: `flights_sample_100k.csv` (100,000 rows, 32 columns)
 - Period: 2019-01-01 to 2023-08-31
 - Operated flights: 97,373 | Cancelled flights: 2,627
-- Source: add the link to the place you downloaded the dataset from
+- Source: Kaggle
 
 ## Query to dashboard mapping
 
