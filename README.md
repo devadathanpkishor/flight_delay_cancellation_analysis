@@ -2,6 +2,12 @@
 
 An end-to-end data analytics project that analyses 100,000 US domestic flights (January 2019 to August 2023) to find out **which airlines, routes and months suffer most from delays and cancellations, and why**.
 
+![Delay Overview](dashboard%20page%201.png)
+![Cancellation Analysis](dashboard%20page%202.png)
+![Airport & Time Analysis](dashboard%20page%203.png)
+
+
+
 ## Business questions
 
 1. Which airlines and routes have the highest departure delays?
